@@ -6,4 +6,7 @@ __pycache__/
 # Run outputs
 runs/
 
+# Large local data (do not commit)
+PALA_InVivoRatBrain_Coordinates_40IQ.mat
+
 
