@@ -1,5 +1,7 @@
 # ULM-PINN
 
+**Eric Gao, UCSD Neurobiology**
+
 A physics informed neural network (PINN) pipeline for microbubble tracking in Ultrasound Localization Microscopy (ULM). It is written entirely in Python and covers the whole pipeline after localization: given a set of microbubble localizations, it seeds a velocity prior, learns a Stokes regularized velocity field, re-tracks the detections with that field, and renders super-resolution maps.
 
 This folder is self contained and you run it on your own localization data.
