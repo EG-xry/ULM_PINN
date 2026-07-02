@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# macOS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Pipeline outputs
+ulm_pinn_out/
+out/
+runs/
+*.pt
+*.pth
+*.npz
+*.mat
+*.log
+
+# diagnostic plots written to cwd
+density_sampling_analysis.png
+matlab_coordinates_analysis.png
